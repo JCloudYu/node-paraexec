@@ -1,0 +1,29 @@
+{
+	"name": "paraexec",
+	"version": "0.9.0",
+	"description": "A nodejs base parallel tasking library implemented using work_threads module",
+	"main": "_dist/index.js",
+	"devDependencies": {
+		"@types/node": "^18.11.9"
+	},
+	"scripts": {
+		"test": "node _dist/test/test.js",
+		"prebuild": "rm -rf ./_dist",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JCloudYu/node-paraexec.git"
+	},
+	"keywords": [
+		"Thread",
+		"SubTask",
+		"Parallel"
+	],
+	"author": "JCloudYu",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JCloudYu/node-paraexec/issues"
+	},
+	"homepage": "https://github.com/JCloudYu/node-paraexec#readme"
+}
